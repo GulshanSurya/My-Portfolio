@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Projects</title>
+    <style>
+        body{
+            background-image: url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family:Calibri(Headings), sans-serif;
+        }
+        .fieldset {
+            border-color:Green;
+            border-style:solid;
+            border-radius:15px;
+        }
+        .legend{
+            border-color:Green;
+            border-style:solid;
+            border-radius:10px;
+            justify-content:center;
+            text-align:center;
+            font-size: 40px; 
+        }
+        .headings{
+            font-size: 35px;
+        }
+        .details-headings{
+            font-size: 25px;
+            color:Green;
+            cursor: pointer;
+        }
+        .paragraphs{
+            
+            font-size:20px;
+            font-family: calibri, sans-serif;
+        }
+        
+    </style>
+
+    
+</head>
+<body>
+    <fieldset class="fieldset">
+        <legend class="legend">My Portfolio</legend>
+        <span class="headings">What is "Myportfolio"?</span><br>
+
+        <p class="paragraphs">
+            The Project named "Myportfolio" is a basically a django website which briefly describes about the projects, internships and  other 
+            technical and non-technical activities that are done by me (Gulshan Surya). As we already know, this website is created using HTML and
+            CSS for front-end and uses very basic python/Django framework for back-end. 
+        </p>
+
+        <span class="headings">What functionalities does "Myportfolio" consists?</span><br>
+         
+        <details>
+            <summary class="details-headings">Talking about the home section</summary>
+            <ol class="paragraphs">
+                <li>In the home page of my 'myportfolio' project, I have given a navigation bar which has some buttons on it having relation to
+                    different addreses to mine to different platforms.</li>
+                <li>The navbar background has been created by using "div" tag in html and buttons on it are not actually buttons but are created by
+                     using "ul" and "li" i.e. unordered list and list tags respectively. When user makes a click on any of the list items accept for
+                     "about me", the user's browser is redirected to the profile page of mine of the respective platform. And when the user clicks 
+                     on "contacts/phone"section shown in the form of a button, there is an API which takes the user to my whatsapp number which is 
+                     also my contact number.</li>
+
+                <li>In addition, the home page consists of three buttons aiming to divide the portfolio sections into three main categories i.e projects,
+                     internships and other activities done by me.These buttons are created using "button" tag unlike navigation bar buttons.</li>
+
+            </ol>
+
+
+
+            
+        </details>
+        <details>
+            <summary class="details-headings">Talking about the My Project section</summary>
+            <ol class="paragraphs">
+                <li>"My Projects" section that lists out the different domains of projects.</li>
+                <li> In this section, again there are four buttons made using "button" tag.</li>
+                <li>On clicking the "Django" named button, the browser is redirected to a page which consists of a table that lists out and shortly describes
+                    the projects made using Django.</li>
+                <li>On clicking the "Python" named button, the browser is redirected to a page which consists of a table that lists out and shortly describes
+                    the projects made using Python.</li>
+                <li>On clicking the "AI/ML" named button, the browser is redirected to a page which consists of a table that lists out and shortly describes
+                    the projects made using Artificial Intelligence or Machine Learning.</li>
+                <li>On clicking the "Frontend" named button, the browser is redirected to a page which consists of a table that lists out and shortly describes
+                    the projects made using front-end technologies (in most cases HTML, CSS and JavaScript).</li>
+
+            </ol>
+        </details>
+        <details>
+            <summary class="details-headings">Talking about the My Internship section</summary>
+            <ol class="paragraphs">Talking about the My Internship section</ol>
+        </details>
+        <details>
+            <summary class="details-headings">Talking About the Other Activities Section</summary>
+            <ol class="paragraphs">Talking About the Other Activities Section</ol>
+        </details>
+        
+        
+
+
+    </fieldset>
+</body>
+</html>
+
+
+
+
+
